@@ -1,6 +1,6 @@
 function [reservoir,numerical,fluid,wells]=Input
 
-%% .. Buckley Leverett ..
+%% .. Hetergoeneous case Inputs ..
 reservoir.Lx=6000;                               % Reservoir length (ft) in X direction
 reservoir.Ly=7500;                               % Reservoir length (ft) in Y direction
 
