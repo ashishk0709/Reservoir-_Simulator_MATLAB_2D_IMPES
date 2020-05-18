@@ -1,0 +1,11 @@
+function [krw,kro]=KR(sw)
+swcon=0.2;
+swcrit=0.2;
+soirw=0.4;
+sorw=0.4;
+krw0=0.3;
+kro0=0.8;
+Nw=2;
+No=2;
+krw=krw0*((sw-swcrit)/(1-swcrit-soirw))^Nw;
+kro=kro0*((1-sw-sorw)/(1-swcon-sorw))^No;
